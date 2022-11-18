@@ -1,0 +1,22 @@
+{
+    "employment" : [
+        {
+            "heading" : "2019 - 2021" ,
+            "text": "Vikarie på på precator padegogarna"
+        }
+
+    ],
+
+    "education" : [
+        "2022 - 2023 - Fullsktack Javascript",
+        "2017 - 2017 - Samhällvetenskap program med inriktning media och kommunikation",
+        "2019 - 2022  - Jounalistik media digitala medier "
+    ],
+
+    "internships" : [
+        {
+            "companyName" : "Omvarlden" ,
+            "text": " Jag har praktiserat som journalist på tidningen Omvärlden"
+        }
+    ]
+}

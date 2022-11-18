@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <ul>
+                    <li id="hem"> <a href="../index.html">hem</a></li>
+                    <li id="om mig"> <a href="../pages/about.html">Om mig</a></li>
+                    <li id="portfolio"> <a href="../pages/portfolio.html">Portfolio</a></li>
+                    <li id="kontakt" class="active"> <a href="pages/contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+
+            <section id="contact" class="section-contact">
+              
+
+                <div id="overly"> 
+
+                    <form onsubmit="event.preventDefault(); validateForm()">
+                    <h2>kontackta mig</h2>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="your name">
+                    <small class="error"></small>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="your email ">
+                    <small class="error"></small>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="your message" rows="6"> </textarea>
+                    <small class="error"></small>
+
+                    <div class="center">
+                        <input type="submit" value="Send Message">
+                        <p id="success"></p>
+                    </div>
+
+                </form>
+                </div>
+        </div>
+    </div>
+    <script src="../javascript.js"></script>
+</body>
+
+</html>

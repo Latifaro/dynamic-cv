@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hem</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="pic.jpeg" alt="Latifa Rohani" />
+            <h5>Latifa Rohani</h5>
+
+            <div class="nav">
+                <ul>
+                    <li id="hem" class="active"> <a href="index.html">Hem</a></li>
+                    <li id="om mig"> <a href="pages/about.html">Om mig</a></li>
+                    <li id="portfolio"> <a href="pages/portfolio.html">Portfolio</a></li>
+                    <li id="kontakt"> <a href="pages/contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <section id="about" class="section-about">
+                <h1>OM MIG</h1>
+            <br>
+                Hej! 
+                <br>
+                <p>Jag heter Latifa Rohani ipsum fugiat omnis tempore.<br>
+                Hic beatae error nesciunt reprehenderit. 
+               There are many variations of passages of Lorem Ipsum available. <br>
+                  but the majority have suffered alteration in some form,</p>
+
+            </section>
+            <br>
+            <br>
+
+            <section id="about2" class="section-about2">
+                <!-- JSON HTML -->
+
+                <section class="myItem"></section>
+               
+            </section>
+
+            <br>
+            <br>
+
+            <section id="portfolio" class="section-portfolio">
+                <h1>Portfolio</h1>
+                <br>
+                <br>
+                <p>
+                    <p>Det var en skoluppgift som jag gjorde.</p>
+                    <br>
+                   
+              
+                    <button class="btn">
+                    </a>
+                    <a href="https://github.com/Latifaro/Number-guessing-Game-.git">
+                        <img src="images.png" alt="Number-guessing-Game-">
+                     
+                    </a>
+                  </button>
+                </p>
+       
+
+               
+            </section>
+
+            <br>
+            <br>
+            <section id="contact" class="section-contact">
+
+                <div id="container">
+                    <form id=" myForm " onsubmit="event.preventDefault(); validateForm()">
+                        <h2>kontackta mig</h2>
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="your name">
+                        <small class="error"></small>
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="your email ">
+                        <small class="error"></small>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="your message" rows="6"> </textarea>
+                        <small class="error"></small>
+
+                        <div class="center">
+                            <input type="submit" value="Send Message">
+                            <p id="success"></p>
+                        </div>
+
+                    </form>
+                </div>
+
+            </section>
+
+        </div>
+        <div class="footer"> Latifa Rohani </div>
+    </div>
+
+    <script  src="script.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
